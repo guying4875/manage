@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <!--自动扫描整个包 -->
+        <package name="com.hy.shop.entity"/>
+    </typeAliases>
+    <!-- 映射mapper-->
+    <mappers>
+
+    </mappers>
+    <!-- 获取主键自增长-->
+    <settings>
+        <setting name="useGenerateKeys" value="true"/>
+        <setting name="useCloumnLable" value="true"/>
+        <setting name="mapperUnderscoreToCamelCase" value="true"/>
+    </settings>
+</configuration>
